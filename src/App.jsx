@@ -1,14 +1,29 @@
-import Header from './components/Header/Header.jsx';
-import Section from './components/Section/Section.jsx';
-import Browse from './components/Browse/Browse.jsx';
-import Card from './components/BrowseCard/BrowseCard.jsx';
+import { useState } from 'react';
 
 function App() {
+  const [text, setText] = useState('');
+  let error = false;
+
+  if (text.length < 8) {
+    error = true;
+  }
+
   return (
-    <div>
-      <Header />
-      <Section />
-      <Browse />
+    <div className='app'>
+      <div>Придумайте пароль</div>
+      <input
+        type='text'
+        onChange={(e) => {
+          const input = e.target.value;
+          setText(input);
+        }}
+      />
+
+      {error === false && (
+        <div className='btns'>
+          <button>Изменить пароль</button>
+        </div>
+      )}
     </div>
   );
 }
