@@ -1,31 +1,31 @@
 .header {
-
-    position:absolute ;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    padding: 33px 54px;
-    background-color: white;
-    width: 100%;
-
-}.logo{
-    display: flex;
-    align-items: center;
-    gap: 4px;
- }
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 33px 54px;
+  background-color: white;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 .logo h1 {
-    color: black;
-    font-size: 34px;
-    font-weight: bold;
-    margin: 0 266px 0  0;
- }.nav a{
-       text-decoration: none;
-       color: #000000;
-       margin: 0 75px;
-       font-weight: bold ;
-       font-size: 16px;
-       margin: 0 160px 0 0;
-   }.icons img {
-       margin: 0 45px;
-       cursor: pointer;
-   }
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0 266px 0 0;
+}
+.nav a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 75px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 160px 0 0;
+}
+.icons img {
+  margin: 0 45px;
+  cursor: pointer;
+}
