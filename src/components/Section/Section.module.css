@@ -1,0 +1,36 @@
+.AllSection{
+    position: relative;
+}.fon{
+
+ }
+
+.fon img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position:absolute ;
+}.Text {
+    position: absolute;
+    width:643px ;
+    height: 443px;
+    background-color: antiquewhite;
+    margin: 350px 990px;
+    padding: 62px 42px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'poppins';
+    border-radius: 10px;
+
+
+ }.Bold{
+    font-weight: bold;
+    font-size: 52px;
+    color: #B88E2F;
+    margin-bottom: 17px;
+   }
+.btn{
+    margin-top: 46px;
+    background-color: #B88E2F;
+    color: white;
+    padding: 25px 72px;
+   }
