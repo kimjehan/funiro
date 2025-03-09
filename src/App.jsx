@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 function App() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
   let error = false;
 
   if (text.length < 8) {
@@ -9,11 +9,10 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className='app'>
       <div>Придумайте пароль</div>
       <input
-        type="text"
-        sadfjadshflkadsljadsfhlk
+        type='text'
         onChange={(e) => {
           const input = e.target.value;
           setText(input);
@@ -21,7 +20,7 @@ function App() {
       />
 
       {error === false && (
-        <div className="btns">
+        <div className='btns'>
           <button>Изменить пароль</button>
         </div>
       )}
